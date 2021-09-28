@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./index.css" />
+    <title>Eloquent JavaScript by Marijn Haverbeke</title>
+</head>
+
+<body>
+    <nav id="navbar">
+        <header id="header">Eloquent JavaScript</header>
+        <ul>
+            <li class="nav-links" id="introduction">
+                <a href="#introduction">Introduction</a>
+            </li>
+            <li class="nav-links" id="values_types_and_operators">
+                <a href="#values_types_and_operators">Values, Types, and Operators</a>
+            </li>
+            <li class="nav-links" id="#program_structure">
+                <a href="#program_structure">Program Structure</a>
+            </li>
+            <li class="nav-links" id="functions">
+                <a href="#functions">Program Structure</a>
+            </li>
+            <li class="nav-links" id="objects_and_arrays">
+                <a href="#objects_and_arrays">Data Structures: Objects and Arrays</a>
+            </li>
+            <li class="nav-links" id="higher_order_functions">
+                <a href="#higher_order_functions">Higher-order Functions</a>
+            </li>
+            <li>
+                <img id="header-img" src="https://eloquentjavascript.net/img/cover.jpg" alt="Eloquent JavaScript" />
+            </li>
+        </ul>
+    </nav>
+    <main id="main-doc">
+        <section class="main-section" id="introduction">
+            <header>Introduction</header>
+            <article>
+                <p>This is a book about instructing computers. Computers are about as common as screwdrivers today, but they are quite a bit more complex, and making them do what you want them to do isn’t always easy.
+                </p>
+                <ul>
+                    <li>
+                        <strong>On programming</strong>
+                        <p>Besides explaining JavaScript, I will introduce the basic principles of programming. Programming, it turns out, is hard. The fundamental rules are simple and clear, but programs built on top of these rules tend to become complex
+                            enough to introduce their own rules and complexity. You’re building your own maze, in a way, and you might just get lost in it.</p>
+                    </li>
+                    <li>
+                        <strong>Why language matters</strong>
+                        <p>In the beginning, at the birth of computing, there were no programming languages. Programs looked something like this:</p>
+                        <code>00110001 00000000 00000000<br>
+                        00110001 00000001 00000001<br>
+                        00110011 00000001 00000010<br>
+                        01010001 00001011 00000010<br>
+                        00100010 00000010 00001000<br>
+                        01000011 00000001 00000000<br>
+                        01000001 00000001 00000001<br>
+                        00010000 00000010 00000000<br>
+                        01100010 00000000 00000000</code>
+                    </li>
+                </ul>
+            </article>
+        </section>
+        <section class="main-section" id="values_types_and_operators">
+            <header>Values Types and Operators</header>
+            <article>
+                <p>Inside the computer’s world, there is only data. You can read data, modify data, create new data—but that which isn’t data cannot be mentioned. All this data is stored as long sequences of bits and is thus fundamentally alike.</p>
+                <code>
+                    0   0   0   0   1   1   0   1<br>
+                    128  64  32  16   8   4   2   1<br>
+                </code>
+            </article>
+        </section>
+        <section class="main-section" id="program_structure">
+            <header>Program Structure</header>
+            <article>
+                <p>In this chapter, we will start to do things that can actually be called programming. We will expand our command of the JavaScript language beyond the nouns and sentence fragments we’ve seen so far, to the point where we can express meaningful
+                    prose.
+                </p>
+                <ul>
+                    <li>
+                        <strong>Expressions and Statements</strong>
+                        <p>A fragment of code that produces a value is called an expression. Every value that is written literally (such as 22 or "psychoanalysis") is an expression. An expression between parentheses is also an expression, as is a binary
+                            operator applied to two expressions or a unary operator applied to one.</p>
+                    </li>
+                </ul>
+            </article>
+        </section>
+        <section class="main-section" id="functions">
+            <header>Functions</header>
+            <article>
+                <p>Functions are the bread and butter of JavaScript programming. The concept of wrapping a piece of program in a value has many uses. It gives us a way to structure larger programs, to reduce repetition, to associate names with subprograms,
+                    and to isolate these subprograms from each other.
+                </p>
+                <ul>
+                    <li>
+                        <strong>Defining a function</strong>
+                        <p>A function definition is a regular binding where the value of the binding is a function. For example, this code defines square to refer to a function that produces the square of a given number:
+                        </p>
+                        <code>
+                        const square = function(x) {
+                            return x * x;
+                          };
+                          console.log(square(12));
+                          // → 144
+                    </code>
+                    </li>
+                </ul>
+            </article>
+        </section>
+        <section class="main-section" id="objects_and_arrays">
+            <header>Objects and Arrays</header>
+            <article>
+                <p>Numbers, Booleans, and strings are the atoms that data structures are built from. Many types of information require more than one atom, though. Objects allow us to group values—including other objects—to build more complex structures.</p>
+                <ul>
+                    <li>
+                        <strong>The weresquirrel</strong>
+                        <p>Every now and then, usually between 8 p.m. and 10 p.m., Jacques finds himself transforming into a small furry rodent with a bushy tail.</p>
+                    </li>
+                </ul>
+            </article>
+        </section>
+        <section class="main-section" id="higher_order_functions">
+            <header>Higher order Functions</header>
+            <ul>
+                <li>
+                    <strong>Encapsulation</strong>
+                    <p>The core idea in object-oriented programming is to divide programs into smaller pieces and make each piece responsible for managing its own state.</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+    ​ ​ ​ ​
+</body>
+
+</html>
